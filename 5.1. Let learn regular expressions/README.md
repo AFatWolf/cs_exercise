@@ -102,7 +102,7 @@ result.group()  // result.group(0)
 
 ### Replacing with matched results.  
 
-![replacing](replacing.png)  
+![replacing](replace.png)  
 
 
 
