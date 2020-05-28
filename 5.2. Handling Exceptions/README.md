@@ -45,7 +45,7 @@ That means, if you catch KeyboardInterrupt exception, you can take actions when 
 
 ![answerexe2](answerexe2.png)  
 
-### [Advanced] More Python Functionalities.  
+## **2. [Advanced] More Python Functionalities**.    
 **Scopes**  
 - Global values.
 **Function as a value**  
@@ -94,18 +94,18 @@ list(map(lambda x: x*2, range(0, 10)))
 ```  
 - all(f, xs):  check if all the elements in list satisfy condition f.  
 ```
-all(filter(lambda x: (x%2) == 0, range(0,10)))
->> True
+all(filter(lambda x: (x%2) == 0, range(0,10))
+>> False
 ```  
 - any(f, xs): check if there's any element in list that satisfy condition f.  
 ```
 any(filter(lambda x: x%2 == 0, range(0,10)))
->> False
+>> True
 ```  
 **Comprehensions**  
 ```
 fruits = ["apple", "banana", "orange"]  
->> ['{} juice'.format(x) for x in fruits]  
+>> ['{} juice'.any(filter(lambda x: x%2 == 0, range(0,10)))(x) for x in fruits]  
 >> ['apple juice', ...]  
 >> [x ** 2 for in range(1,11) if (x % 2 == 1)]
 ?? [1, 9, 25, 49, 81]  
