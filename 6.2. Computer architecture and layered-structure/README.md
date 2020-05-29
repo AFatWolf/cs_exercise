@@ -131,6 +131,26 @@ Note: `os.makedirs` also is an useful method.
 os.makedirs(r"../example2", exist_ok=True)
 # exist_ok = True --> overwrite the current folder.
 ```  
+To get the path of the file:
+```
+base = os.path.dirname(os.path.abspath(__file__))
+```  
+To look into .txt file:  
+```
+with open("memo.txt","r") as file:
+    for line in file:
+        print(line)
+```  
+To read data from file:  
+```
+f = open("collectdata.txt","r")
+for line in f:
+    print(line.strip().split(","))
+# Strip to remove whitespace characters such \n
+f.close()
+```  
+
+
 
 
 
