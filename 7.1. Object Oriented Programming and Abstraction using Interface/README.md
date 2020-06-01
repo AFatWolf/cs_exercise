@@ -55,6 +55,8 @@ class Person:
 
     @classmethod
     # It is important to write `@classmethod`.
+    # use cls for class method.
+    # use self for instance method.
     def add_tittle(cls, name):
         return name + ' ' + cls.title
 ```  
