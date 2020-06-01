@@ -47,5 +47,12 @@ Results will look like this:
 "トウキョウト","キタク","アカバネダイ","none","東京都","北区","赤羽台","none"
 ```  
 The information is separated by "," --> CSV(comma-separated values) format.  
+**Note:** There is a big different between 'r' and 'w' method. Also, when trying to open csv format, let try to use `encoding="utf-8"`.  
+```
+with open("./6/result.csv","w",encoding="utf-8") as file:
+    file.write(str(response.text))
+```  
+
+
 
 
