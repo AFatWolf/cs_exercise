@@ -84,7 +84,9 @@ You can write in regular expression that the beginning and the end of the string
 Example: re.search(r"^\d{3}-\d{4}, s):
 --> `115-0053` --> True
 --> `P115-0053` --> False.  
-Where to test regular expression: https://pythex.org/  
+Note: Start of string: `^` and end of string: `$`.  
+
+Where to test regular expression: [pythex.org](https://pythex.org/)  or [regex101.com](https://regex101.com/).  
 
 ## 3. Search and Substitution with regukar expressions.  
 How to omit/retrive a matched string?  
@@ -100,6 +102,7 @@ result.group()  // result.group(0)
 
 ![substitution](substitution.png)  
 
+Note: Don't forget to use, `r`, otherwise, you will need to use `\\`.  
 ### Replacing with matched results.  
 
 ![replacing](replace.png)  
