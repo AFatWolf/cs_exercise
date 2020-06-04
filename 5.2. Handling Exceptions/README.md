@@ -27,12 +27,12 @@ Example:
 def divide(x,y):
     try:
         result = x/y
-        except ZeroDivisionError:
-            print('Cannot divide by zero')  
-        else:
-            print('Result:', result)
-        finally:
-            print("Calculation is complete").  
+    except ZeroDivisionError:
+        print('Cannot divide by zero')  
+    else:
+        print('Result:', result)
+    finally:
+        print("Calculation is complete").  
 ```  
 ### [Advanced] Raising an exception.  
 ![raise](raise.png)  
@@ -108,7 +108,7 @@ fruits = ["apple", "banana", "orange"]
 >> ['{} juice'.any(filter(lambda x: x%2 == 0, range(0,10)))(x) for x in fruits]  
 >> ['apple juice', ...]  
 >> [x ** 2 for in range(1,11) if (x % 2 == 1)]
-?? [1, 9, 25, 49, 81]  
+>> [1, 9, 25, 49, 81]  
 ```  
 
 ![comprehensions](comprehensions.png)  

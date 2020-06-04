@@ -5,7 +5,6 @@ def change_num(subtotal, paid):
     money = change(subtotal, paid)
     ans = 0
     for bill in bills:
-        add = int(money/bill) 
         ans += money//bill
         money %= bill
     return ans
