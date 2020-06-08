@@ -1,5 +1,8 @@
-import os
-path = "./practice-6-3-1"
-os.makedirs(path, exist_ok=True)
-with open(path + "/result.txt","w") as file:
-    file.write("Tran Ba Tuyen")
+class Lecture:
+    def __init__(self,name, teacher, n_credits):
+        self.name = name
+        self.teacher = teacher
+        self.n_credits = n_credits
+# phil = Lecture('Philosophy', 'Enryo Inoue', 2)
+# ca = Lecture('Computer Architecture', 'Ken Sakamura', 4)
+# print(phil.n_credits + ca.n_credits)
