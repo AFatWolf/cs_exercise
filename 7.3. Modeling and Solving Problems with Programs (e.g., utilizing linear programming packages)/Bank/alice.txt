@@ -1,0 +1,1 @@
+Account alice is created. Current balance: 1000000.

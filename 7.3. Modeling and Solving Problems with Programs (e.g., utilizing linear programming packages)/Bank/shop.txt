@@ -1,0 +1,2 @@
+Account shop is created. Current balance: 104000.
+shop receives 2000 Yen from bob. Current balance: 106000.
