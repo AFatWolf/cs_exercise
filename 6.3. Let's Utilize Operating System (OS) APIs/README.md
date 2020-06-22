@@ -27,6 +27,11 @@ homepath = os.path.expanduser("~")
 >>> homepath
 >>> 'C:\\Users\\Tuyen Tran'
 ```  
+Call real path:
+```
+homepage = os.path.realpath(__file__)
+```  
+
 ## **5. Web API**  
 - World Wide Web: An information providing system where documents and other web resources are identified by URLs and presented in a hypertext format.  
 --> abbreviated as "Web".  
