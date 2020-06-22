@@ -5,6 +5,7 @@ Dict: Items are not ordered in dictionaries. Items can be accessed by using key 
 ### Data structures for lists:
 - Arrays
 - Linked lists.  
+
 **Arrays**  
 - A contiguous region that consists of fixed-size sub-regions (i-th sub region is next to i+1-th sub region in the computer's memory).  
 --> Accessing array is very fast.  
