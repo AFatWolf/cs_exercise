@@ -28,6 +28,8 @@ Terminology:
 - height of a node, tree  (distance from the node to the leaf)
 - depth of a node (the length of a path from the root to the node)  
 
+![term](term.png)  
+
 ## Dijkstra problem.  
 
 ![dijkstra](dijkstra.png)  
