@@ -1,10 +1,14 @@
-def average(xs):
-	lenEven = 0
-	sumEven = 0
-	for x in xs:
-		if x % 2 == 0:
-			lenEven+=1
-			sumEven+=x
-
-	return sumEven/lenEven
-print(average([1, 2, 3, 4, 5, 6]))
+def is_leap_year(year):
+	if (year % 400 == 0):
+		return True
+	if (year % 100 == 0):
+		return False
+	if (year % 4 == 0):
+		return True
+	return False
+def print_year(year):
+	if (is_leap_year(year)):
+		return "a leap year"
+	return "not a leap year"
+for i in range(1900, 2011):
+	print(str(i) + ": " + print_year(i))

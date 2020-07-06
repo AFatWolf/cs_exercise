@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sending data</title>
+</head>
+
+<body>
+    <ul>
+        <li><a href="#name">Name</a></li>
+        <li><a href="#message">Message</a> </li>
+        <li><a href="#OS">Operating system</a></li>
+        <li><a href="#browser">Browser</a></li>
+        <li><a href="#lang">Programming languages</a></li>
+    </ul>
+    <hr>
+    <h1>Message form</h1>
+    <form action="http://cs-practice.iniad.org/htmlpost" method="post">
+        <p>
+            <label for="name"> Name </label>
+            <input id="name" name="name" type="text">
+        </p>
+        <p>
+            <label for="message"> Message </label>
+            <textarea style="margin: 0px; width: 800px; height: 300px;" id="message"
+                name="message"> Write your text here </textarea>
+        </p>
+
+        <hr>
+        <h1>Questionaire</h1>
+        <p>
+            <label id="OS">Operating system: </label>
+            <input type="radio" name="OS" value="Windows"> Windows
+            <input type="radio" name="OS" value="Mac"> Mac
+            <input type="radio" name="OS" value="Linux"> Linux
+        </p>
+        <p>
+            <select name="browser" id="browser">
+                <option value="Chrome" selected>Chrome</option>
+                <option value="Edge">Edge</option>
+                <option value="Other">Other</option>
+            </select>
+        </p>
+        <p>
+            <label id="lang">Favorite programming language: </label>
+            <input type="checkbox" name="lang[]" value="Python"> Python
+            <input type="checkbox" name="lang[]" value="HTML"> HTML
+            <input type="checkbox" name="lang[]" value="Other"> Other
+
+        </p>
+        <p>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset">
+        </p>
+
+    </form>
+
+</body>
+
+</html>
