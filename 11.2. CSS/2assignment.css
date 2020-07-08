@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+}
+h1 {
+    color: #f1e9e9;
+    background-color: #444444;
+    text-shadow: 2px 2px #8d8686;
+    text-align: center;
+}
+h2 {
+    border-bottom: solid 3px #7777ee;
+    background-color: #ccccee;
+}
+th {
+    background-color: #cccccc;
+}
+td {
+    background-color: #eeeeee;
+}
+form {
+    border: solid 1px #ccccee;
+    margin-left: px;
+    /* Margin: căn lề */
+    padding-left: 10px;
+}

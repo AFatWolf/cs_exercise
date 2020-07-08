@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 24px;
+    text-shadow: 2px 2px;
+    text-align: center;
+}
+h2 {
+    font-size: 18px;
+    text-decoration: underline;
+}
+li {
+    font-size: 0.8em;
+}
+th {
+    font-size: 0.8em;
+}
+td {
+    font-size: 0.8em;
+}
