@@ -1,0 +1,14 @@
+body {
+    font-weight: bold;
+}
+li {
+    border: #444444 solid 1px;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+   background-color: #759aff; 
+   border-bottom: #1c2e61 solid 3px;
+}
