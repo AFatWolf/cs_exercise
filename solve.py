@@ -1,14 +1,10 @@
-def is_leap_year(year):
-	if (year % 400 == 0):
-		return True
-	if (year % 100 == 0):
-		return False
-	if (year % 4 == 0):
-		return True
-	return False
-def print_year(year):
-	if (is_leap_year(year)):
-		return "a leap year"
-	return "not a leap year"
-for i in range(1900, 2011):
-	print(str(i) + ": " + print_year(i))
+def my_function(x):
+	return (x % 7 == 0 and x % 5 !=0)
+ans = []
+for x in range(100, 201):
+	if (my_function(x)):
+		ans.append(x)
+for i in range(len(ans)):
+	print(ans[i], end = "")
+	if (i != len(ans) - 1):
+		print(", ", end = "")
