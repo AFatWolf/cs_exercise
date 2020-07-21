@@ -1,8 +1,9 @@
-function pow(x, y){
-    var ans = 1;
-    for (var i = 1; i <= y; ++i) ans *= x;
-    return ans;
+var strings = ['Information', 'Networking', 'for', 'Innovation', 'and', 'Design'];
+var cnt = 0;
+
+function updateTarget() {
+    var str = strings[cnt];
+    var element = document.getElementById('target');
+    element.textContent = str;
+    cnt++;
 }
-console.log(pow(2,3));
-console.log(pow(3,4));
-console.log(pow(4,5));

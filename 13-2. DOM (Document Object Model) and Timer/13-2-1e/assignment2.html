@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>JavaScript Sample</title>
+    <link rel="stylesheet" type="text/css" href="css/sample.css">
+    <script src="js/assignment2.js"></script>
+  </head>
+
+  <body>
+    <h1>JavaScript Assignment</h1>
+
+    <h2>Assignment 2 : Tax calculation</h2>
+    <form>
+      <p>
+        <label for="price-without-tax">Price without tax</label>
+        <input id="price-without-tax" type="text">
+        yen
+      </p>
+      <p>
+        <label for="tax-rate">Tax rate</label>
+        <input id="tax-rate" type="text">
+        %
+      </p>
+    </form>
+    <button onclick="calcTax()">Calculate</button>
+
+    <div class="result">
+      <p>
+        Price including tax : <span id="price">?</span>yen
+        (Tax : <span id="tax">?</span>yen)
+      </p>
+    </div>
+  </body>
+</html>
