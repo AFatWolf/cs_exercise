@@ -1,34 +1,29 @@
-body {
-    margin : 0px;
-}
 h1 {
-    font-family : sans-serif;
-    font-size : 24px;
-    margin : 0px;
-    padding : 16px;
-    color : #ccccff;
-    background-color : #333333;
-    border-left: #ccccff solid 4px;
+    padding: 10px;
+    border-bottom: solid 1px #777777;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #777777;
 }
 
-#alert {
-    margin : 8px;
-    padding : 8px;
-    background-color : #ffffcc;
+p {
+    font-family: sans-serif;
 }
 
-.page {
-    margin : 8px;
-    padding : 8px;
-    background-color : #eeeeff;
+.input {
+    padding: 10px;
+    border: solid 1px #777777;
 }
 
-h2 {
-    font-family : sans-serif;
-    font-size : 18px;
-    border-bottom: #ccccff solid 4px;
+.result {
+    padding: 10px;
+    background: #eeeeee;
 }
 
-.iniad {
-    color: #0000ff;
+.in {
+    color: #ff4444;
+}
+
+#output-num {
+    color: #4444ff;
 }
