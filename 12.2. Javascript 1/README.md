@@ -40,7 +40,8 @@ JavaScript console: a developer tool in Chrome.
 - `parseInt(String, N)`: convert a string into N-ary numbers.  
 - `parseFloat(String)`: convert a string into a float.  
 - `String(Number)`: Number to string.  
-- `toFixed(2)`: round.  
+- `Number(string)`: Returns numeric value of String.   
+- `Number.toFixed(2)`: round.  
 
 ![implicit](implicit.png)  
 

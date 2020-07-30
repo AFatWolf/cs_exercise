@@ -30,6 +30,18 @@ Some interesting methods:
 ![object](object.png)  
 
 - `in`: `property-name in object`  
+**Sorting in JavaScript**  
+- `arr.sort()`  
+- Use compare function:  
+```
+function compare(a,b){
+    if (a < b) return -1;
+    return 1; // a > b
+    return 0; // a = 0
+}
+var points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b){return a - b});
+```
 
 **Misc**  
 ![misc](misc.png)  

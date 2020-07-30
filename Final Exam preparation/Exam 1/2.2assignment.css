@@ -1,0 +1,25 @@
+h1 {
+    padding-left: 8px;
+    border-left: solid 4px #333377;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #333377;
+    }
+p {
+    font-family: sans-serif;
+}
+#input-fields {
+    font-family: sans-serif;
+    padding: 8px 32px 8px 32px;
+    background-color : #ddddff;
+}
+.param {
+    padding: 4px;
+    color: #3333ff;
+    font-size: 24px;
+}
+#area {
+    padding: 4px;
+    color: #ff3333;
+    font-size: 24px;
+}

@@ -1,0 +1,25 @@
+h1 {
+    padding-left: 8px;
+    border-bottom: solid 4px #333333;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #333333;
+}
+p {
+    font-family: sans-serif;
+}
+#area {
+    padding: 8px;
+    background: #dddddd;
+}
+.result {
+    padding: 8px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    background: #333333;
+    text-align: center;
+}
+.amount {
+    color: #ffaaaa;
+}
