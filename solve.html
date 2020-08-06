@@ -2,29 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Counting a character.</title>
+    <title>JavaScript Addition Sample</title>
     <script src="solve.js"></script>
-    <link rel="stylesheet" type="text/css" href="solve.css">
   </head>
   <body>
-    <h1>Counting a character.</h1>
-
-    <p>This page counts how many times the character c appears in the string x.</p>
-
-    <div class="input">
+    <h1>JavaScript Addition Sample</h1>
+    <form>
       <p>
-        <label for="input-x">x</label>
-        <input id="input-x" type="text">
+        <label for="op1">X</label>
+        <input id="op1" type="text">
       </p>
       <p>
-        <label for="input-c">c</label>
-        <input id="input-c" type="text">
+        <label for="op2">Y</label>
+        <input id="op2" type="text">
       </p>
-      <button onclick="count()">Count</button>
+    </form>
+    <button onclick="addition()">Addition</button>
+
+    <div>
+      <p>
+        X + Y = <span id="result"></span>
+      </p>
     </div>
-    
-    <p class="result">
-      The character <span id="output-c" class="in"> </span> appears in the string <span id="output-x" class="in"> </span> <span id="output-num"> </span> times.
-    </p>
   </body>
 </html>

@@ -1,18 +1,9 @@
-function count() {
-	var inputX = document.getElementById('input-x');
-	var x = inputX.value;
-	var inputC = document.getElementById('input-c');
-	var c = inputC.value;
-	// alert(x);
-	var num = 0;
-	for (var i=0;i<x.length;++i){
-		num += (c == x[i]);
-	}
+function addition() {
+	var elem1 = document.getElementById('op1');
+	var x = parseFloat(elem1.value);
+	var elem2 = document.getElementById('op2');
+	var y = parseFloat(elem2.value);
   
-	var outputX = document.getElementById('output-x');
-	outputX.textContent = x;
-	var outputC = document.getElementById('output-c');
-	outputC.textContent = c;
-	var outputNum = document.getElementById('output-num');
-	outputNum.textContent = String(num);
+	var elem3 = document.getElementById('result');
+	elem3.textContent = String(x + y);
   }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sample 3-2</title>
+    <script src="2.2.js"></script>
+    <link rel="stylesheet" type="text/css" href="2.2.css">
+  </head>
+  <body>
+    <h1>Discomfort index</h1>
+    
+    <p>Discomfort index</p>
+    <div class="problem">
+      <p>
+        <label for="input-temperature">Temperature (Celsius)</label>
+        <input id="input-temperature" type="text">
+      </p>
+      <p>
+        <label for="input-humidity">Huidity (%)</label>
+        <input id="input-humidity" type="text">
+      </p>
+      <p>
+        <label for="input-text">Show the meaning</label>
+        <input id="input-text" type="checkbox">
+      </p>
+      <button onclick="calculate()">Check</button>
+    </div>
+
+    <div class="result">
+      <p>Discomfort index: <span id="di"> </span></p>
+    </div>
+  </body>
+</html>

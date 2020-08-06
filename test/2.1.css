@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: #447755;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+#alert {
+    border-bottom: solid 3px #447755;
+}
+
+table {
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+    border: solid 3px #447755;
+}
+
+th {
+    padding: 4px;
+}
+
+td {
+    padding: 4px;
+}
+
+.weekday {
+    background-color: #ccccff;
+    width: 200px;
+}
+
+.other {
+    background-color: #ffcccc;
+    width: 200px;
+}
